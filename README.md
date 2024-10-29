@@ -1,3 +1,5 @@
+# Serval Simulations
+
 This is a simulation in Python for satellite edge computing. It is built on top of the Serval framework, which provides libraries for simulating satellites along with their imaging, computation, and communication over time.
 
 I introduce an ImageSamplingSatellite class in src/ and tune other files to achieve the desired simulation results for my research with Dr. Divya Mahajan.
