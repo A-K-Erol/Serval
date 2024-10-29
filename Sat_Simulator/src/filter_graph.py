@@ -71,6 +71,28 @@ class Filter:
 
     def __str__(self) -> str:
         return "{{filterId: {}}}".format(self.name)
+    
+    def build_filter(
+    name, score_threshold=0.5, output_size=None, preemptive=False, runtime=0, **kwargs
+):
+        def filter(image):
+            image_score = image.filter_result[name][0]
+            # image_score = 1
+            side_results = []
+            Log("Filter result for image", image, {"score": image_score}, {"name": name})
+            if output_size is not None:
+                data_digest = Image(
+                    size=output_size,
+                    region=image.region,
+                    time=image.time,
+                    name=f"{image.name}_{name}_digest",
+                )  # data digest is e.g. number of ships in image
+                data_digest.score = 1  # Digests are always high priority
+                side_results.append(data_digest)
+                Log("Insight generated for image on filter", image.size, data_digest)
+            return image_score >= score_threshold, side_results
+
+        return Filter(name, preemptive=preemptive, apply_method=filter, runtime=runtime, **kwargs)
 
 
 def build_filter(

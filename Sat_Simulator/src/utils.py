@@ -299,6 +299,10 @@ class Location:
         lon = round(geoCentric.lon.value, 4)
         elev = round(geoCentric.height.value, 4)
         return (lat, lon, elev)
+    
+    def to_coords(self):
+        lat, lon, lev = self.to_lat_long()
+        return (lat, lon)
 
     def to_alt_az(self, groundPoint: 'Location', time: 'Time') -> 'Tuple[float, float, float]':
         """

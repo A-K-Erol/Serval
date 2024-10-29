@@ -65,7 +65,7 @@ class IotDevice(NodeDecorator):
             self.generate_ack(pck)
         pass
 
-    def load_data(self, timeStep: float, numData) -> None:
+    def load_data(self, timeStep: float, numData=30) -> None:
         """
         For Iot GS, creates 30 bits over one hour
         """

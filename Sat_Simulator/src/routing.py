@@ -287,11 +287,17 @@ class Routing:
         idToSat = {i: sat for i, sat in enumerate(self.topology.satList)}
         gsToId = {gs: i for i, gs in enumerate(self.topology.groundList) if gs.recieveAble}
         idToGs = {i: gs for i, gs in enumerate(self.topology.groundList) if gs.recieveAble}
+        # print(cost_matrix)
+        # print(satToId)
+        # print(idToSat)
+        # print(gsToId)
+        # print(idToGs)
 
         for sat in self.topology.satList:
             totalNum = len(sat.dataQueue) + len(sat.transmitPacketQueue)
             totalNum *= const.DATA_SIZE
             for gs, lnk in self.topology.possibleLinks[sat].items():
+                print(gs, lnk.gs)
                 if gs.recieveAble and totalNum > 0:
                     cost_matrix[satToId[sat]][gsToId[lnk.gs]] = -1 * (lnk.downlinkDatarate * self.timeStep/totalNum)
                 else:
@@ -318,7 +324,8 @@ class Routing:
         print("Scheduling uplink j")        
         iotDevices = [gs for gs in self.topology.groundList if gs.transmitAble]
         lengthOfSlot = (const.PACKET_SIZE + const.PREAMBLE_SIZE)/262 #self.topology.nodeLinks[gs][0].uplinkDatarate
-        numSlots = int(self.timeStep // lengthOfSlot)
+        numSlots = max(1, int(self.timeStep // lengthOfSlot))
+
         satsToSlots: 'Dict[Satellite, Dict[numSlots, int]]' = {sat: {i: 0 for i in range(0, numSlots)} for sat in possibleLinks.keys()}
         
         random = np.random.rand(len(iotDevices), numSlots)
@@ -456,7 +463,7 @@ class Routing:
             
             goodInds = np.argwhere(IS == 1)
             indepdentLinks = [list(grph.nodes)[int(i)] for i in goodInds]
-            print(len(indepdentLinks), "independent links")
+            # print(len(indepdentLinks), "independent links")
             scheduled = {}
             scheduledLinks = {}
             for link in indepdentLinks:
@@ -475,11 +482,11 @@ class Routing:
                     scheduled[sat] = link
                     
             for sat in scheduled.keys():
-                print("Sat has", len(scheduledLinks[sat]), "links")
+                # print("Sat has", len(scheduledLinks[sat]), "links")
                 Link.update_link_datarates(scheduledLinks[sat])
                 scheduled[sat].assign_transmission(0, self.timeStep, 0, sat)
         
-        print("Done Scheduling")
+        # print("Done Scheduling")
         lastTransmitted = {sat: lastTransmitted[sat] + 1 for sat in self.topology.satList}
         return possibleLinks
     

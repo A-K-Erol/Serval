@@ -46,8 +46,8 @@ class Node:
 
         ##for these dequeues, the -1 element is the first element in the queue
         ##TODO: find better way of doing these
-        self.transmitPacketQueue: 'Deque[Packet]' =  deque(maxlen=math.floor(self.packetBuffer/const.PACKET_SIZE))
-        self.recievePacketQueue: 'Deque[Packet]' =  deque(maxlen=math.floor(self.packetBuffer/const.PACKET_SIZE))
+        self.transmitPacketQueue: 'Deque[Packet]' =  deque(maxlen=720)
+        self.recievePacketQueue: 'Deque[Packet]' =  deque(maxlen=720)
         self.dataQueue: 'Deque[Data]' = deque(maxlen=math.floor(self.maxMemory/const.PACKET_SIZE)) ##
         
         ##Communication variables for each type of object
@@ -223,6 +223,7 @@ class Node:
             while len(self.transmitPacketQueue) < self.transmitPacketQueue.maxlen:
                 if len(self.dataQueue) > 0:
                     data = self.dataQueue.pop()
+                    print("what")
                     if data.size < self.packetBuffer - len(self.transmitPacketQueue) * (const.PACKET_SIZE + const.PREAMBLE_SIZE):
                         packets = data.to_packets()
                         self.transmitPacketQueue.extendleft(packets)

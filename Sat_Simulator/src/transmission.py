@@ -169,20 +169,29 @@ class Transmission:
                     #Log("Sending", sending, "receiving", *receiving, "channel", channel, "datarate", datarate, "PER", per, "SNR", snr, "totalPackets")
                 
                 trns = CurrentTransmission(sending, receiving, channel)
-                
+                print(sending)
                 #now let's assign the packets within this transmission
                 currentTime = startTime
+                print(currentTime, endTime, len(sending.transmitPacketQueue))
+                tp = 0
                 while currentTime < endTime and len(sending.transmitPacketQueue) > 0:
                     lengthOfNextPacket = sending.transmitPacketQueue[-1].size
-                    timeForNext = lengthOfNextPacket / datarate
+                    timeForNext = 100 * lengthOfNextPacket / datarate
                     if currentTime + timeForNext <= endTime and sending.has_power_to_transmit(timeForNext):
+                        tp += 1
                         sending.use_transmit_power(timeForNext)
                         pck = sending.send_data()
                         trns.packets.append(pck)
                         trns.packetsTime.append((currentTime, currentTime + timeForNext))
                         currentTime = currentTime + timeForNext
                     else:
-                        break  
+                        if currentTime + timeForNext > endTime:
+                            print("Time for next packet exceeds end time, breaking")
+                        else:
+                            print("Not enough power to transmit, breaking")
+                        break
+                if tp > 0:
+                    print("transmitted", tp)
                 # Log("Sending", sending, "receiving", *receiving, "channel", channel, "datarate", datarate, "PER", per, "SNR", snr, "totalPackets", len(trns.packets))
                 assert len(trns.packets) == len(trns.packetsTime)
                 trns.PER = per

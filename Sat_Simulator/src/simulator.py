@@ -4,12 +4,11 @@ from typing import Dict, List, Optional, no_type_check, TYPE_CHECKING
 import sys
 import math
 from time import time as time_now
-from collections import Iterable
 from typing import Dict, List
 from collections.abc import Iterable
 
 from matplotlib import pyplot as plt
-
+from src.Metrics import Metrics
 from src.utils import Time, Print
 from src.routing import Routing
 from src.satellite import Satellite
@@ -181,7 +180,10 @@ class Simulator:
         ##Start sim:
         while time < self.endTime:
             s = time_now()
-            #print("Simulation at", time.to_str())
+            print("Simulation at", time.to_str())
+            Metrics.metr().print()
+            log.Log(str(Metrics.metr().hipri_captured), str(Metrics.metr().hipri_computed), str(Metrics.metr().hipri_sent), str(Metrics.metr().images_captured), str(Metrics.metr().pri_captured))
+            log.Log(str(Metrics.metr().cmpt_delay), str(Metrics.metr().transmit_delay))
             log.update_logging_time(time)
 
             #if the topology maps have been created - this should load from storage and not re-compute anything

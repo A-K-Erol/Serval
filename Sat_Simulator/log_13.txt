@@ -1,0 +1,14 @@
+52009
+{'percent hi': 0.014197530864197531, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+52010
+{'percent hi': 0.011111111111111112, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+52011
+{'percent hi': 0.011507936507936509, 'avg capture to compute': 30.21551724137931, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 204.82758620689654, 'avg hi pri to transmit': 21.50862068965517, 'filter_0': 0.0, 'filter_1': 0.0}
+52015
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52020
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52027
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52029
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}

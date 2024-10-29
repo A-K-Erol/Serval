@@ -432,17 +432,17 @@ class Link:
                 #ber = ber * Link.sf_and_snr_to_ber[sf][max([x for x in Link.sf_and_snr_to_ber[sf].keys() if x <= snr])]
                 bers[lnk] = Link.sf_and_snr_to_ber[sf][max([x for x in Link.sf_and_snr_to_ber[sf].keys() if x <= lnk.snr])]
                 ber = ber * bers[lnk]
-            print("sf: {}, ber: {}".format(sf, ber))
+            # print("sf: {}, ber: {}".format(sf, ber))
             if ber < const.MINIMUM_BER:
                 #we found the sf that works for all the links
                 for lnk in lnkList:
                     original = lnk.downlinkDatarate
                     lnk.downlinkDatarate = Link.sf_to_rate(sf)
-                    print("Changing datarate from {} to {} for link {}".format(original, lnk.downlinkDatarate, lnk))
+                    # print("Changing datarate from {} to {} for link {}".format(original, lnk.downlinkDatarate, lnk))
                     lnk.BER = ber
                     per = lnk.PER
                     lnk.PER = lnk.per_from_ber(ber)
-                    print("Changing PER from {} to {} for link {}".format(per, lnk.PER, lnk))
+                    # print("Changing PER from {} to {} for link {}".format(per, lnk.PER, lnk))
                 return
             
         #if we get here, then we couldn't find a sf that works for all the links

@@ -13,6 +13,8 @@ class NodeDecorator (Node):
     def __init__(self, node: 'Node'):
         self._node = node
         
+    def get_node(self) -> 'Node':
+        return self._node
 
     def load_data(self, timeStep: 'float') -> None:
         pass

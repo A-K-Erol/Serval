@@ -4,7 +4,7 @@ MICRO_TIMESTEP = .001 #seconds
 
 DEBUG = False ##Wether or not to print debug statements
 INCLUDE_POWER_CALCULATIONS = True ##wether to include power calculations in the simulation
-INCLUDE_UNIVERSAL_DATA_CENTER = True ##wether to use a universal data center or not
+INCLUDE_UNIVERSAL_DATA_CENTER = False ##wether to use a universal data center or not
 ##TRANSMISSION DETAILS:
 SEND_ACKS = False ##wether to store info until ack or just send and delete the info
 
@@ -45,7 +45,7 @@ class RoutingMechanism(Enum):
     single_and_ours = 15
     aloha_and_ours = 16
     ours_and_l2d2 = 17
-ROUTING_MECHANISM = RoutingMechanism.l2d2 ##Routing mechanism to use
+ROUTING_MECHANISM = RoutingMechanism.ours ##Routing mechanism to use
 
 ##Details for link calculations
 INCLUDE_WEATHER_CALCULATIONS = False ##wether to include weather in the link quality calculations

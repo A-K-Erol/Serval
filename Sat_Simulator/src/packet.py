@@ -29,6 +29,7 @@ class Packet:
         self.infoSize = infoSize
         self.preambleSize = preambleSize
         self.descriptor = descriptor
+        self.image = None
 
         self.id = Packet.idCount
         Packet.idCount += 1

@@ -1,0 +1,350 @@
+52012
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.3378399999999997e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52021
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.44654e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52025
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.99492e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52024
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.0852999999999998e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52013
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.0092399999999998e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52014
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 6.81444e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52023
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.4463799999999997e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52016
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 6.157619999999999e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52022
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 6.02892e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52020
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.4551799999999996e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52027
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.7331e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52029
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.4965999999999997e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52015
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.0422e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52009
+{'percent hi': 0.006190476190476191, 'avg capture to compute': 27.403846153846153, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 100243.07692307692, 'avg hi pri to transmit': 32.59615384615385, 'filter_0': 0.0, 'filter_1': 0.0}
+52010
+{'percent hi': 0.0044444444444444444, 'avg capture to compute': 29.107142857142858, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 1870.7142857142858, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52011
+{'percent hi': 0.0031986531986531986, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 9113.684210526315, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+52019
+{'percent hi': 0.0032921810699588477, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 13203.75, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+52026
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.71764e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52018
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.8077e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52028
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.13e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48630
+{'percent hi': 0.003703703703703704, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 11214.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+48626
+{'percent hi': 0.003298611111111111, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 14993.684210526315, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+48631
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.1914e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48636
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.61582e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48634
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.62968e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48632
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.1921e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47442
+{'percent hi': 0.003703703703703704, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 139935.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+47459
+{'percent hi': 0.006130268199233717, 'avg capture to compute': 29.375, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 59028.75, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48628
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.0657799999999999e+39, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47444
+{'percent hi': 0.003373015873015873, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 129458.82352941176, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+47465
+{'percent hi': 0.007118055555555555, 'avg capture to compute': 31.98170731707317, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 33283.90243902439, 'avg hi pri to transmit': 28.01829268292683, 'filter_0': 0.0, 'filter_1': 0.0}
+47447
+{'percent hi': 0.006481481481481481, 'avg capture to compute': 33.82142857142857, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 19225.714285714286, 'avg hi pri to transmit': 86.17857142857143, 'filter_0': 0.0, 'filter_1': 0.0}
+48635
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.75662e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47451
+{'percent hi': 0.00949820788530466, 'avg capture to compute': 36.344339622641506, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 26215.471698113208, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47468
+{'percent hi': 0.003472222222222222, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 14826.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+48629
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.0660319999999999e+39, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47425
+{'percent hi': 0.0035185185185185185, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 102438.94736842105, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+48637
+{'percent hi': 0.006896551724137931, 'avg capture to compute': 29.583333333333332, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 158910.0, 'avg hi pri to transmit': 3930.4166666666665, 'filter_0': 0.0, 'filter_1': 0.0}
+47443
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.1294e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48633
+{'percent hi': 0.00376984126984127, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 16740.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+47431
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.14786e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47426
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.314e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48627
+{'percent hi': 0.013991769547325103, 'avg capture to compute': 37.4264705882353, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 1993.235294117647, 'avg hi pri to transmit': 59.63235294117647, 'filter_0': 0.0, 'filter_1': 0.0}
+47434
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.2714e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47470
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.23372e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47480
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.2086e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47466
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.28696e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47428
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.86458e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47455
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 7.2297e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47429
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.1528e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47460
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.15262e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46309
+{'percent hi': 0.006630824372759856, 'avg capture to compute': 36.92567567567568, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 23915.675675675677, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47433
+{'percent hi': 0.003703703703703704, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 7803.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+47449
+{'percent hi': 0.006513409961685823, 'avg capture to compute': 18.897058823529413, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 5195.294117647059, 'avg hi pri to transmit': 101.1029411764706, 'filter_0': 0.0, 'filter_1': 0.0}
+47706
+{'percent hi': 0.00632183908045977, 'avg capture to compute': 19.431818181818183, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 46994.545454545456, 'avg hi pri to transmit': 100.56818181818181, 'filter_0': 0.0, 'filter_1': 0.0}
+47432
+{'percent hi': 0.005185185185185185, 'avg capture to compute': 20.535714285714285, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 161318.57142857142, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47464
+{'percent hi': 0.005740740740740741, 'avg capture to compute': 32.21774193548387, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 2866.451612903226, 'avg hi pri to transmit': 87.78225806451613, 'filter_0': 0.0, 'filter_1': 0.0}
+46305
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 8.208e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47707
+{'percent hi': 0.0034050179211469536, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 8441.052631578947, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+46301
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.437e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46300
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.437e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47427
+{'percent hi': 0.0059386973180076625, 'avg capture to compute': 24.475806451612904, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 85703.2258064516, 'avg hi pri to transmit': 95.5241935483871, 'filter_0': 0.0, 'filter_1': 0.0}
+47712
+{'percent hi': 0.006810035842293907, 'avg capture to compute': 24.93421052631579, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 22471.57894736842, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47703
+{'percent hi': 0.006630824372759856, 'avg capture to compute': 25.574324324324323, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 127031.35135135135, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47705
+{'percent hi': 0.007168458781362007, 'avg capture to compute': 26.75, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 64393.5, 'avg hi pri to transmit': 9873.25, 'filter_0': 0.0, 'filter_1': 0.0}
+47711
+{'percent hi': 0.0140625, 'avg capture to compute': 56.06481481481482, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 595.5555555555555, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52187
+{'percent hi': 0.005555555555555556, 'avg capture to compute': 27.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52185
+{'percent hi': 0.013518518518518518, 'avg capture to compute': 48.92123287671233, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 39501.3698630137, 'avg hi pri to transmit': 4121.489726027397, 'filter_0': 0.0, 'filter_1': 0.0}
+46302
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.45086e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47704
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 8.82e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46308
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 8.2998e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46303
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.7296999999999997e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46307
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.0616e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+43817
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.8821399999999995e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52183
+{'percent hi': 0.010763888888888889, 'avg capture to compute': 52.54032258064516, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 60456.77419354839, 'avg hi pri to transmit': 4052.6209677419356, 'filter_0': 0.0, 'filter_1': 0.0}
+47715
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.835599999999999e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52186
+{'percent hi': 0.007347670250896057, 'avg capture to compute': 31.98170731707317, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 27916.09756097561, 'avg hi pri to transmit': 4348.018292682927, 'filter_0': 0.0, 'filter_1': 0.0}
+52417
+{'percent hi': 0.008237547892720307, 'avg capture to compute': 27.761627906976745, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 2716.7441860465115, 'avg hi pri to transmit': 32.23837209302326, 'filter_0': 0.0, 'filter_1': 0.0}
+52177
+{'percent hi': 0.006228956228956229, 'avg capture to compute': 33.682432432432435, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 710.2702702702703, 'avg hi pri to transmit': 146.31756756756758, 'filter_0': 0.0, 'filter_1': 0.0}
+52181
+{'percent hi': 0.005197132616487455, 'avg capture to compute': 28.146551724137932, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 64042.75862068965, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52416
+{'percent hi': 0.0072796934865900385, 'avg capture to compute': 28.092105263157894, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 5916.315789473684, 'avg hi pri to transmit': 31.907894736842106, 'filter_0': 0.0, 'filter_1': 0.0}
+52180
+{'percent hi': 0.0053872053872053875, 'avg capture to compute': 31.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 753.75, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+43816
+{'percent hi': 0.006111111111111111, 'avg capture to compute': 33.97727272727273, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 450701.8181818182, 'avg hi pri to transmit': 86.02272727272727, 'filter_0': 0.0, 'filter_1': 0.0}
+52182
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.0961e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52179
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 8.71524e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+43139
+{'percent hi': 0.005729166666666666, 'avg capture to compute': 32.15909090909091, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 26787.272727272728, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46304
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.107e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46310
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.5522199999999998e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47709
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.098e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+43818
+{'percent hi': 0.0042592592592592595, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 4226.086956521739, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+46306
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.0195199999999999e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47710
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 9.3798e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+47714
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.51236e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46311
+{'percent hi': 0.004563492063492064, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 202440.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+43142
+{'percent hi': 0.008237547892720307, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 100000.46511627907, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+47708
+{'percent hi': 0.0034482758620689655, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 90750.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+52395
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.66734e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52396
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.1098599999999997e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52397
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.07802e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52398
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.903199999999999e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52164
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.5046e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52404
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.8271799999999998e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52402
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.72152e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52405
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 9.6732e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52403
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.0793599999999998e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52399
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 7.4196e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52166
+{'percent hi': 0.004814814814814815, 'avg capture to compute': 24.326923076923077, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 4513.846153846154, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52176
+{'percent hi': 0.007854406130268199, 'avg capture to compute': 29.054878048780488, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 2375.121951219512, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52406
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 9.737999999999999e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52400
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 6.9534e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52408
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.35656e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52401
+{'percent hi': 0.006630824372759856, 'avg capture to compute': 23.9527027027027, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 65036.75675675676, 'avg hi pri to transmit': 36.0472972972973, 'filter_0': 0.0, 'filter_1': 0.0}
+52394
+{'percent hi': 0.005197132616487455, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 15417.931034482759, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+52409
+{'percent hi': 0.0077777777777777776, 'avg capture to compute': 22.678571428571427, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 44271.42857142857, 'avg hi pri to transmit': 37.32142857142857, 'filter_0': 0.0, 'filter_1': 0.0}
+52410
+{'percent hi': 0.008812260536398468, 'avg capture to compute': 24.72826086956522, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 144.7826086956522, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52407
+{'percent hi': 0.007407407407407408, 'avg capture to compute': 25.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 13104.0, 'avg hi pri to transmit': 34.75, 'filter_0': 0.0, 'filter_1': 0.0}
+52411
+{'percent hi': 0.008237547892720307, 'avg capture to compute': 30.552325581395348, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 85738.6046511628, 'avg hi pri to transmit': 89.44767441860465, 'filter_0': 0.0, 'filter_1': 0.0}
+52413
+{'percent hi': 0.00537037037037037, 'avg capture to compute': 28.146551724137932, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 5915.172413793103, 'avg hi pri to transmit': 31.853448275862068, 'filter_0': 0.0, 'filter_1': 0.0}
+52412
+{'percent hi': 0.004022988505747126, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 2034.2857142857142, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+52415
+{'percent hi': 0.00632183908045977, 'avg capture to compute': 26.704545454545453, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 90256.36363636363, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+52414
+{'percent hi': 0.006349206349206349, 'avg capture to compute': 31.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 3116.25, 'avg hi pri to transmit': 28.75, 'filter_0': 0.0, 'filter_1': 0.0}
+43140
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.3228e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+43141
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.23894e+38, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48891
+{'percent hi': 0.004901960784313725, 'avg capture to compute': 1.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 14892.0, 'avg hi pri to transmit': -1.25, 'filter_0': 0.0, 'filter_1': 0.0}
+48883
+{'percent hi': 0.008333333333333333, 'avg capture to compute': 28.522727272727273, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 807.2727272727273, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48886
+{'percent hi': 0.010846560846560847, 'avg capture to compute': 40.76219512195122, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 2050.243902439024, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48890
+{'percent hi': 0.007246376811594203, 'avg capture to compute': 15.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 4782.0, 'avg hi pri to transmit': 104.75, 'filter_0': 0.0, 'filter_1': 0.0}
+48934
+{'percent hi': 0.0125, 'avg capture to compute': 26.583333333333332, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 6348.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48894
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.1546e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48884
+{'percent hi': 0.007692307692307693, 'avg capture to compute': 29.583333333333332, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 3730.0, 'avg hi pri to transmit': 30.416666666666668, 'filter_0': 0.0, 'filter_1': 0.0}
+48897
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48949
+{'percent hi': 0.00847953216374269, 'avg capture to compute': 32.28448275862069, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 51585.51724137931, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48935
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 7.073999999999999e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48896
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.078e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48946
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 7.739999999999999e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48932
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.726e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48882
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48887
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48945
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.0699999999999998e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48899
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 7.902e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48933
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 7.739999999999999e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48895
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.7459999999999998e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48904
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.998e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46945
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.14e+35, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48893
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.572e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48947
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.2474e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46937
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46952
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 8.2493999999999995e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46933
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48888
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 8.478e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48937
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.076e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46939
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.726e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48936
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.3895999999999998e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48940
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.41e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46947
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 5.904e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46938
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46942
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46935
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46944
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 8.135999999999999e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46950
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48939
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.6199999999999998e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46934
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.726e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46951
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 4.41e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46959
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.4472e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+48889
+{'percent hi': 0.013888888888888888, 'avg capture to compute': 28.25, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 184.5, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46957
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.0124e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46948
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 2.0124e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46936
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 8.478e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46949
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 1.2563999999999998e+37, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46958
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 9.81e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46941
+{'percent hi': 0.013541666666666667, 'avg capture to compute': 30.48076923076923, 'avg compute to prioritize': 1.25, 'avg capture to transmit': 1283.076923076923, 'avg hi pri to transmit': 29.51923076923077, 'filter_0': 0.0, 'filter_1': 0.0}
+46946
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.24e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46960
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 9.737999999999999e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46956
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 3.744e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}
+46953
+{'percent hi': 0.0, 'avg capture to compute': 0.0, 'avg compute to prioritize': 0.0, 'avg capture to transmit': 8.405999999999999e+36, 'avg hi pri to transmit': 0.0, 'filter_0': 0.0, 'filter_1': 0.0}

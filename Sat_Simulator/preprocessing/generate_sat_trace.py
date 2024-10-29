@@ -1,7 +1,7 @@
 from datetime import datetime, timezone
 import json
-from src.filter_graph import FilterGraph
-from src.image import Image
+from workspace.src.filter_graph import FilterGraph
+from workspace.src.image import Image
 from util import build_filters, generate_satellite_image_mapping_dict
 from argparse import ArgumentParser
 import const
