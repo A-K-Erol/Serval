@@ -25,7 +25,7 @@ class ImageSatellite (NodeDecorator):
 
     def load_data(self, timeStep: float) -> None:
         """
-        Adds porportional memory to the timeStep,
+        Adds proportional memory to the timeStep,
 
         Arguments:
             timeStep (float) - time to calculate memory
@@ -41,10 +41,10 @@ class ImageSatellite (NodeDecorator):
         """
         Loads the packet buffer with data
         """
-        if len(self.transmitPacketQueue) < 720 and len(self.dataQueue) > 0:
+        if len(self.transmitPacketQueue) < 600 and len(self.dataQueue) > 0:
             a_original = len(self.dataQueue)
             b_original = len(self.transmitPacketQueue)
-            while len(self.transmitPacketQueue) < 360 and len(self.dataQueue) > 0:
+            while len(self.transmitPacketQueue) < 600 and len(self.dataQueue) > 0:
                 
                 dataObj = self.dataQueue.pop()    
                 if type(dataObj) == Image:
@@ -61,7 +61,9 @@ class ImageSatellite (NodeDecorator):
                 
                 packets[0].image = dataObj
                 
-                self.transmitPacketQueue.extendleft(packets)
+                
+                for packet in packets:
+                    self.transmitPacketQueue.appendleft((packet, dataObj))
             
             if len(self.transmitPacketQueue) > 0:
                 print("Packets waiting, ", len(self.transmitPacketQueue))

@@ -175,9 +175,9 @@ class Transmission:
                 print(currentTime, endTime, len(sending.transmitPacketQueue))
                 tp = 0
                 while currentTime < endTime and len(sending.transmitPacketQueue) > 0:
-                    lengthOfNextPacket = sending.transmitPacketQueue[-1].size
-                    timeForNext = 100 * lengthOfNextPacket / datarate
+                    timeForNext = 0.1
                     if currentTime + timeForNext <= endTime and sending.has_power_to_transmit(timeForNext):
+
                         tp += 1
                         sending.use_transmit_power(timeForNext)
                         pck = sending.send_data()

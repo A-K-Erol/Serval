@@ -75,23 +75,25 @@ if __name__ == "__main__":
     Metrics.metr()
     sim.run()
     Metrics.metr().print()
-    Metrics.metr().image_logger.pretty_save("images.txt")
-
-    with open("log_15.txt", "w") as f:
+    # Metrics.metr().image_logger.pretty_save("images.txt")
+    
+    print("Logs Saving")
+    with open("log_23.txt", "w") as f:
         for satellite in satellites:
             f.write(str(satellite) + "\n")
             f.write("\n")
-            f.write("mem%, time-cache, pow, len-data, len-low, len-med, len-hi, num-proc\n")
+            f.write("len-data, len-low, len-med, len-hi, mem%, time-cache, pow, num-proc\n")
             for analytic in satellite.analytics:
                 f.write(str(analytic) + "\n")
-    with open("log_16.txt", "w") as f:
+    with open("log_24.txt", "w") as f:
         analytics = Metrics.metr().image_logger.create_analytics()
         for sat, data in analytics.items():
             f.write(str(sat) + "\n")
             f.write(str(data))
             f.write("\n")
-    
-    Metrics.metr().image_logger.save("images.pkl")
+    print("Logs Saving")
+    Metrics.metr().image_logger.pretty_save("images.txt")
+    # Metrics.metr().image_logger.save("images.pkl")
     ## sim.save_objects(".tmp") ## this will pickle and load all the objects until needed again
     ## sim.load_objects(".tmp") ## this will load all the objects that were pickled ##
     

@@ -13,13 +13,7 @@ class ImageSamplingSatellite(ImageSatellite):
     def __init__(
         self,
         node: "node.Node",
-        energy_config: Dict[str, float] = {
-            "compute_energy": 9.0,
-            "transmit_energy": 5.0,
-            "camera_energy": 4.0,
-            "receive_energy": 1.5,
-            "normal_energy": 2.0,
-        },
+        energy_config: Dict[str, float] = {},
         computation_schedule: Dict[int, bool] = {},
         priority_bw_allocation: float = 1,
         start_time: datetime = datetime(2021, 7, 1),
@@ -53,20 +47,20 @@ class ImageSamplingSatellite(ImageSatellite):
             # callback=lambda data, method: log.Log(f"Data accessed in the data queue", self, data, {"method": method})
         )
         self.priority_bw_allocation = priority_bw_allocation
-        self.normalPowerConsumption = energy_config["normal_energy"]
-        self.currentMWs = 25000
-        self.recievePowerConsumption = 0
-        self.transmitPowerConsumption = energy_config["transmit_energy"]
+        self.normalPowerConsumption = 1.13 * 1000 # 1.13W
+        self.currentMWs = 300000
+        self.compute_power = 10 * 1000 # 10 W
+        self.recievePowerConsumption = 1 * 1000 # 2 W
+        self.transmitPowerConsumption = 5 * 1000 # 50 W
+        self.camera_power = 4.5 * 1000 # 4.5 W
         self.concentrator = 0
-        self.powerGeneration = energy_config["receive_energy"]
-        self.maxMWs = 25000
+        self.powerGeneration = 7 * 1000 # 7 W
+        self.maxMWs = 400000
         self.beamForming = True
         self.start_time = Time().from_datetime(start_time)
         self.targets = targets
-        self.image_rate = 3 # images per minute
-        self.glacial_threshold = 0.5
-        self.dynamic_threshold = 0.6
-        self.compute_time = 5 # seconds per image
+        self.image_rate = .75 # images per second
+        self.glacial_threshold = .4
         self.analytics = []
 
     def in_target(self) -> bool: 
@@ -74,6 +68,8 @@ class ImageSamplingSatellite(ImageSatellite):
         Returns whether the satellite is in the target
         """
         a = self.node.position.to_coords()
+
+        return True
 
         return any(
             [
@@ -89,7 +85,7 @@ class ImageSamplingSatellite(ImageSatellite):
 
         # for comptuational efficiency on machine
         x, y = self.node.position.to_coords()
-        if x < 10 or x > 80 or y < -140 or y > -100:
+        if x < -10 or x > 100 or y < -150 or y > -90:
             return 0
         # bounding = Polygon([
         # (10, -100),
@@ -103,7 +99,7 @@ class ImageSamplingSatellite(ImageSatellite):
         #     return # shortcut for computational efficiency
 
         images_captured = int(timeStep * self.image_rate)
-        self.currentMWs -= self.energy_config["camera_energy"]
+        self.currentMWs -= self.camera_power * timeStep
         Metrics.metr().images_captured += images_captured
         a = len(self.dataQueue)
         for _ in range(images_captured):
@@ -111,13 +107,12 @@ class ImageSamplingSatellite(ImageSatellite):
                 10, Polygon([(0,0),(1,1),(1,0),(0,1)]), log.loggingCurrentTime.to_datetime(), name="Target Image", satellite = self.node.id
             )
             Metrics.metr().image_logger.add_image(image)
-            filters = [["Cloud",0.8,1],["Fire",0.5,0.25]]
+            filters = [["Cloud",0.8,1.2],["Fire",0.5,0.4]]
             image.pipeline = ImagePipeline(filters)
             image.pipeline.log_event("captured")
 
             
             if self.in_target() and random.random() < self.glacial_threshold:
-                print("Cali image found")
                 Metrics.metr().pri_captured += 1
                 image.pipeline.log_event("put_in_compute_queue")
                 self.primitive_high_priority_queue.put(image)
@@ -132,7 +127,6 @@ class ImageSamplingSatellite(ImageSatellite):
             log.Log("Image captured by sat", image, self)
             self.cache_size += image.size
 
-        print("hi", a, len(self.dataQueue))
         return images_captured
 
     def get_cache_size(self) -> int:
@@ -157,7 +151,7 @@ class ImageSamplingSatellite(ImageSatellite):
             Metrics.metr().pri_captured -= 1
             log.Log(
                 "Doing computation on sat", image, self, {
-                    "time": self.compute_time, "cache": self.computation_time_cache}
+                    "cache": self.computation_time_cache}
             )
 
             filter_res, filter_time = image.pipeline.apply_filter()
@@ -189,12 +183,14 @@ class ImageSamplingSatellite(ImageSatellite):
         ims_captured = self.populate_cache(timeStep)
         # Do computation
         if self.computation_time_cache < timeStep:
-            if self.currentMWs > self.energy_config["compute_energy"] * timeStep:
-                self.computation_time_cache += timeStep * self.priority_bw_allocation
-                self.currentMWs -= self.energy_config["compute_energy"] * timeStep
+            if self.currentMWs > self.compute_power * timeStep / 4:
+
+                
+                self.computation_time_cache += timeStep / 4
+                self.currentMWs -= self.compute_power * timeStep / 4
         log.Log(
             "Computation time cache", self, {
                 "time_cache": self.computation_time_cache}
         )
         self.do_computation()
-        self.analytics.append([self.percent_of_memory_filled(), self.computation_time_cache, self.currentMWs, len(self.dataQueue), len(self.lo_priority_queue), len(self.primitive_high_priority_queue), len(self.final_high_priority_queue), self.images_processed_per_timestep, ims_captured])
+        self.analytics.append([len(self.dataQueue), len(self.lo_priority_queue), len(self.primitive_high_priority_queue), len(self.final_high_priority_queue), self.percent_of_memory_filled(), self.computation_time_cache, self.currentMWs, self.images_processed_per_timestep, ims_captured])

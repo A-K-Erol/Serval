@@ -1,0 +1,350 @@
+52012
+{'num hi': 81, 'percent hi': 0.028125, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999974, 'avg capture to transmit': 15235.714285714286, 'avg hi pri to transmit': 1411.733333333331, 'filter_0': 0.0, 'filter_1': 0.0}
+52021
+{'num hi': 89, 'percent hi': 0.03409961685823755, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 16383.050847457627, 'avg hi pri to transmit': 1231.433707865166, 'filter_0': 0.0, 'filter_1': 0.0}
+52024
+{'num hi': 95, 'percent hi': 0.030595813204508857, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 16792.40506329114, 'avg hi pri to transmit': 1276.0842105263132, 'filter_0': 0.0, 'filter_1': 0.0}
+52025
+{'num hi': 99, 'percent hi': 0.036065573770491806, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 18601.27659574468, 'avg hi pri to transmit': 1492.9454545454516, 'filter_0': 0.0, 'filter_1': 0.0}
+52028
+{'num hi': 111, 'percent hi': 0.050340136054421766, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999965, 'avg capture to transmit': 16153.846153846154, 'avg hi pri to transmit': 1540.0216216216177, 'filter_0': 0.0, 'filter_1': 0.0}
+52013
+{'num hi': 178, 'percent hi': 0.059932659932659935, 'avg capture to compute': 231.32701421800948, 'avg compute to prioritize': 1.5999999999999985, 'avg capture to transmit': 17452.037914691944, 'avg hi pri to transmit': 2114.9168539325915, 'filter_0': 0.0, 'filter_1': 0.0}
+52014
+{'num hi': 136, 'percent hi': 0.044444444444444446, 'avg capture to compute': 7.920792079207921, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 14914.059405940594, 'avg hi pri to transmit': 1332.0764705882323, 'filter_0': 0.0, 'filter_1': 0.0}
+52023
+{'num hi': 107, 'percent hi': 0.03446054750402577, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 15059.56678700361, 'avg hi pri to transmit': 1190.549532710278, 'filter_0': 0.0, 'filter_1': 0.0}
+52016
+{'num hi': 113, 'percent hi': 0.0369281045751634, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999965, 'avg capture to transmit': 14727.272727272728, 'avg hi pri to transmit': 1068.8424778761037, 'filter_0': 0.0, 'filter_1': 0.0}
+52022
+{'num hi': 114, 'percent hi': 0.03725490196078431, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999965, 'avg capture to transmit': 15588.129496402878, 'avg hi pri to transmit': 1179.9789473684186, 'filter_0': 0.0, 'filter_1': 0.0}
+52020
+{'num hi': 107, 'percent hi': 0.03396825396825397, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 15743.525179856115, 'avg hi pri to transmit': 1071.6710280373807, 'filter_0': 0.0, 'filter_1': 0.0}
+52027
+{'num hi': 122, 'percent hi': 0.04046434494195688, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999963, 'avg capture to transmit': 16023.272727272728, 'avg hi pri to transmit': 884.13770491803, 'filter_0': 0.0, 'filter_1': 0.0}
+52029
+{'num hi': 125, 'percent hi': 0.040257648953301126, 'avg capture to compute': 7.475409836065574, 'avg compute to prioritize': 1.5999999999999963, 'avg capture to transmit': 14477.11475409836, 'avg hi pri to transmit': 964.1599999999972, 'filter_0': 0.0, 'filter_1': 0.0}
+52015
+{'num hi': 136, 'percent hi': 0.043800322061191624, 'avg capture to compute': 19.681528662420384, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 15428.980891719746, 'avg hi pri to transmit': 1119.4294117647025, 'filter_0': 0.0, 'filter_1': 0.0}
+52009
+{'num hi': 108, 'percent hi': 0.03582089552238806, 'avg capture to compute': 8.431372549019608, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 14838.43137254902, 'avg hi pri to transmit': 1074.5111111111084, 'filter_0': 0.0, 'filter_1': 0.0}
+52010
+{'num hi': 112, 'percent hi': 0.036601307189542485, 'avg capture to compute': 0.627177700348432, 'avg compute to prioritize': 1.5999999999999965, 'avg capture to transmit': 17627.87456445993, 'avg hi pri to transmit': 929.471428571426, 'filter_0': 0.0, 'filter_1': 0.0}
+52011
+{'num hi': 104, 'percent hi': 0.03349436392914654, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 13643.176895306859, 'avg hi pri to transmit': 953.7846153846131, 'filter_0': 0.0, 'filter_1': 0.0}
+52019
+{'num hi': 94, 'percent hi': 0.042630385487528344, 'avg capture to compute': 0.7258064516129032, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 15140.564516129032, 'avg hi pri to transmit': 1477.9744680851031, 'filter_0': 0.0, 'filter_1': 0.0}
+52026
+{'num hi': 87, 'percent hi': 0.03945578231292517, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 18422.12389380531, 'avg hi pri to transmit': 1630.8137931034448, 'filter_0': 0.0, 'filter_1': 0.0}
+52018
+{'num hi': 100, 'percent hi': 0.044444444444444446, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 17084.68085106383, 'avg hi pri to transmit': 1633.9999999999966, 'filter_0': 0.0, 'filter_1': 0.0}
+48636
+{'num hi': 100, 'percent hi': 0.03527336860670194, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 20957.14285714286, 'avg hi pri to transmit': 1886.5999999999958, 'filter_0': 0.0, 'filter_1': 0.0}
+48634
+{'num hi': 79, 'percent hi': 0.027865961199294534, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 17270.689655172413, 'avg hi pri to transmit': 1435.3620253164547, 'filter_0': 0.0, 'filter_1': 0.0}
+48632
+{'num hi': 96, 'percent hi': 0.03232323232323232, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 18957.20338983051, 'avg hi pri to transmit': 1630.2749999999953, 'filter_0': 0.0, 'filter_1': 0.0}
+48628
+{'num hi': 96, 'percent hi': 0.03232323232323232, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 19514.163090128757, 'avg hi pri to transmit': 781.5249999999992, 'filter_0': 0.0, 'filter_1': 0.0}
+48635
+{'num hi': 106, 'percent hi': 0.03413848631239936, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 19492.105263157893, 'avg hi pri to transmit': 880.8528301886784, 'filter_0': 0.0, 'filter_1': 0.0}
+48629
+{'num hi': 92, 'percent hi': 0.029206349206349208, 'avg capture to compute': 0.242914979757085, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 18984.04858299595, 'avg hi pri to transmit': 962.9652173913034, 'filter_0': 0.0, 'filter_1': 0.0}
+48637
+{'num hi': 95, 'percent hi': 0.0289193302891933, 'avg capture to compute': 6.141732283464567, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 21958.110236220473, 'avg hi pri to transmit': 818.1894736842095, 'filter_0': 0.0, 'filter_1': 0.0}
+48633
+{'num hi': 84, 'percent hi': 0.02629107981220657, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999974, 'avg capture to transmit': 19135.128205128207, 'avg hi pri to transmit': 751.9714285714292, 'filter_0': 0.0, 'filter_1': 0.0}
+48627
+{'num hi': 93, 'percent hi': 0.029523809523809525, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 23514.79591836735, 'avg hi pri to transmit': 906.7870967741932, 'filter_0': 0.0, 'filter_1': 0.0}
+48630
+{'num hi': 126, 'percent hi': 0.041176470588235294, 'avg capture to compute': 257.6991150442478, 'avg compute to prioritize': 1.5999999999999963, 'avg capture to transmit': 17001.94690265487, 'avg hi pri to transmit': 1707.923809523806, 'filter_0': 0.0, 'filter_1': 0.0}
+47434
+{'num hi': 84, 'percent hi': 0.030107526881720432, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999974, 'avg capture to transmit': 20393.087557603685, 'avg hi pri to transmit': 1511.2571428571414, 'filter_0': 0.0, 'filter_1': 0.0}
+47470
+{'num hi': 67, 'percent hi': 0.024014336917562724, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999998, 'avg capture to transmit': 30154.591836734693, 'avg hi pri to transmit': 2132.4298507462654, 'filter_0': 0.0, 'filter_1': 0.0}
+47480
+{'num hi': 238, 'percent hi': 0.08263888888888889, 'avg capture to compute': 541.6, 'avg compute to prioritize': 1.6000000000000045, 'avg capture to transmit': 24571.7, 'avg hi pri to transmit': 3855.29075630254, 'filter_0': 0.0, 'filter_1': 0.0}
+48626
+{'num hi': 106, 'percent hi': 0.035157545605306796, 'avg capture to compute': 48.39506172839506, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 20596.543209876545, 'avg hi pri to transmit': 1626.8905660377332, 'filter_0': 0.0, 'filter_1': 0.0}
+47466
+{'num hi': 77, 'percent hi': 0.026324786324786326, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 21600.0, 'avg hi pri to transmit': 1404.8935064935056, 'filter_0': 0.0, 'filter_1': 0.0}
+48631
+{'num hi': 88, 'percent hi': 0.030555555555555555, 'avg capture to compute': 1.170731707317073, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 21016.39024390244, 'avg hi pri to transmit': 1546.12727272727, 'filter_0': 0.0, 'filter_1': 0.0}
+47428
+{'num hi': 70, 'percent hi': 0.025500910746812388, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999979, 'avg capture to transmit': 20448.730964467006, 'avg hi pri to transmit': 1729.8285714285698, 'filter_0': 0.0, 'filter_1': 0.0}
+47455
+{'num hi': 81, 'percent hi': 0.028125, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999974, 'avg capture to transmit': 22536.73469387755, 'avg hi pri to transmit': 1176.1777777777775, 'filter_0': 0.0, 'filter_1': 0.0}
+47429
+{'num hi': 106, 'percent hi': 0.03680555555555556, 'avg capture to compute': 60.46692607003891, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 29090.89494163424, 'avg hi pri to transmit': 2488.966037735844, 'filter_0': 0.0, 'filter_1': 0.0}
+47460
+{'num hi': 155, 'percent hi': 0.05140961857379768, 'avg capture to compute': 284.8101265822785, 'avg compute to prioritize': 1.5999999999999959, 'avg capture to transmit': 23698.32911392405, 'avg hi pri to transmit': 1943.561290322581, 'filter_0': 0.0, 'filter_1': 0.0}
+47433
+{'num hi': 164, 'percent hi': 0.05206349206349206, 'avg capture to compute': 525.1764705882352, 'avg compute to prioritize': 1.5999999999999963, 'avg capture to transmit': 13351.905882352941, 'avg hi pri to transmit': 1495.83902439024, 'filter_0': 0.0, 'filter_1': 0.0}
+47449
+{'num hi': 151, 'percent hi': 0.04726134585289515, 'avg capture to compute': 423.9267015706806, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 16409.84293193717, 'avg hi pri to transmit': 1492.4397350993338, 'filter_0': 0.0, 'filter_1': 0.0}
+47432
+{'num hi': 156, 'percent hi': 0.050241545893719805, 'avg capture to compute': 333.4806629834254, 'avg compute to prioritize': 1.5999999999999959, 'avg capture to transmit': 22418.121546961327, 'avg hi pri to transmit': 2205.707692307696, 'filter_0': 0.0, 'filter_1': 0.0}
+47442
+{'num hi': 146, 'percent hi': 0.04771241830065359, 'avg capture to compute': 174.0983606557377, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 20193.77049180328, 'avg hi pri to transmit': 1832.5095890410928, 'filter_0': 0.0, 'filter_1': 0.0}
+47459
+{'num hi': 125, 'percent hi': 0.040257648953301126, 'avg capture to compute': 255.68965517241378, 'avg compute to prioritize': 1.5999999999999963, 'avg capture to transmit': 27773.275862068964, 'avg hi pri to transmit': 3314.240000000009, 'filter_0': 0.0, 'filter_1': 0.0}
+47464
+{'num hi': 157, 'percent hi': 0.05056360708534621, 'avg capture to compute': 417.77777777777777, 'avg compute to prioritize': 1.5999999999999959, 'avg capture to transmit': 17940.634920634922, 'avg hi pri to transmit': 1776.9987261146473, 'filter_0': 0.0, 'filter_1': 0.0}
+47444
+{'num hi': 76, 'percent hi': 0.024476650563607084, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 27600.0, 'avg hi pri to transmit': 922.0842105263159, 'filter_0': 0.0, 'filter_1': 0.0}
+47427
+{'num hi': 109, 'percent hi': 0.03411580594679186, 'avg capture to compute': 57.40157480314961, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 18542.59842519685, 'avg hi pri to transmit': 1012.895412844035, 'filter_0': 0.0, 'filter_1': 0.0}
+46301
+{'num hi': 172, 'percent hi': 0.06164874551971326, 'avg capture to compute': 360.0, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 22402.39819004525, 'avg hi pri to transmit': 3572.9348837209454, 'filter_0': 0.0, 'filter_1': 0.0}
+47465
+{'num hi': 86, 'percent hi': 0.028956228956228958, 'avg capture to compute': 20.0, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 25887.466666666667, 'avg hi pri to transmit': 1545.8418604651138, 'filter_0': 0.0, 'filter_1': 0.0}
+47447
+{'num hi': 138, 'percent hi': 0.044444444444444446, 'avg capture to compute': 179.04153354632587, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 19501.150159744408, 'avg hi pri to transmit': 1777.530434782605, 'filter_0': 0.0, 'filter_1': 0.0}
+46300
+{'num hi': 278, 'percent hi': 0.10296296296296296, 'avg capture to compute': 906.5102639296188, 'avg compute to prioritize': 1.6000000000000072, 'avg capture to transmit': 19504.486803519063, 'avg hi pri to transmit': 4692.644604316521, 'filter_0': 0.0, 'filter_1': 0.0}
+47451
+{'num hi': 300, 'percent hi': 0.09950248756218906, 'avg capture to compute': 721.9022457067372, 'avg compute to prioritize': 1.6000000000000083, 'avg capture to transmit': 17795.984147952444, 'avg hi pri to transmit': 4049.5999999999854, 'filter_0': 0.0, 'filter_1': 0.0}
+47468
+{'num hi': 96, 'percent hi': 0.03282051282051282, 'avg capture to compute': 50.11764705882353, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 19574.352941176472, 'avg hi pri to transmit': 1434.0249999999971, 'filter_0': 0.0, 'filter_1': 0.0}
+46302
+{'num hi': 91, 'percent hi': 0.03209876543209877, 'avg capture to compute': 38.70967741935484, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 22739.75806451613, 'avg hi pri to transmit': 1638.8395604395585, 'filter_0': 0.0, 'filter_1': 0.0}
+46308
+{'num hi': 164, 'percent hi': 0.05694444444444444, 'avg capture to compute': 491.3151364764268, 'avg compute to prioritize': 1.5999999999999963, 'avg capture to transmit': 18760.198511166254, 'avg hi pri to transmit': 2204.4975609756116, 'filter_0': 0.0, 'filter_1': 0.0}
+43817
+{'num hi': 89, 'percent hi': 0.029966329966329967, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 25506.091370558377, 'avg hi pri to transmit': 1548.9617977528044, 'filter_0': 0.0, 'filter_1': 0.0}
+46303
+{'num hi': 333, 'percent hi': 0.115625, 'avg capture to compute': 684.1198501872659, 'avg compute to prioritize': 1.6000000000000099, 'avg capture to transmit': 26987.265917602996, 'avg hi pri to transmit': 7027.08167202568, 'filter_0': 0.0, 'filter_1': 0.0}
+46307
+{'num hi': 178, 'percent hi': 0.06379928315412187, 'avg capture to compute': 555.7627118644068, 'avg compute to prioritize': 1.5999999999999985, 'avg capture to transmit': 23475.381355932204, 'avg hi pri to transmit': 3597.051685393273, 'filter_0': 0.0, 'filter_1': 0.0}
+47425
+{'num hi': 110, 'percent hi': 0.037037037037037035, 'avg capture to compute': 61.875, 'avg compute to prioritize': 1.5999999999999965, 'avg capture to transmit': 20046.328125, 'avg hi pri to transmit': 1314.5818181818156, 'filter_0': 0.0, 'filter_1': 0.0}
+43816
+{'num hi': 141, 'percent hi': 0.04476190476190476, 'avg capture to compute': 307.1388101983003, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 19437.45042492918, 'avg hi pri to transmit': 1272.4425531914865, 'filter_0': 0.0, 'filter_1': 0.0}
+47443
+{'num hi': 71, 'percent hi': 0.025448028673835124, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999979, 'avg capture to transmit': 22357.14285714286, 'avg hi pri to transmit': 1298.118309859153, 'filter_0': 0.0, 'filter_1': 0.0}
+43818
+{'num hi': 150, 'percent hi': 0.047619047619047616, 'avg capture to compute': 484.1075794621027, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 18033.740831295843, 'avg hi pri to transmit': 2406.400000000002, 'filter_0': 0.0, 'filter_1': 0.0}
+46304
+{'num hi': 97, 'percent hi': 0.03169934640522876, 'avg capture to compute': 51.023622047244096, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 28783.700787401576, 'avg hi pri to transmit': 1331.3896907216463, 'filter_0': 0.0, 'filter_1': 0.0}
+46310
+{'num hi': 204, 'percent hi': 0.06766169154228856, 'avg capture to compute': 1060.6521739130435, 'avg compute to prioritize': 1.6000000000000016, 'avg capture to transmit': 19956.304347826088, 'avg hi pri to transmit': 2732.2235294117813, 'filter_0': 0.0, 'filter_1': 0.0}
+47431
+{'num hi': 79, 'percent hi': 0.027865961199294534, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 22285.492227979274, 'avg hi pri to transmit': 1302.4506329113904, 'filter_0': 0.0, 'filter_1': 0.0}
+47426
+{'num hi': 86, 'percent hi': 0.030335097001763667, 'avg capture to compute': 0.8866995073891626, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 28498.81773399015, 'avg hi pri to transmit': 1372.8186046511603, 'filter_0': 0.0, 'filter_1': 0.0}
+46306
+{'num hi': 86, 'percent hi': 0.027697262479871174, 'avg capture to compute': 0.8823529411764706, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 27362.352941176472, 'avg hi pri to transmit': 512.5860465116284, 'filter_0': 0.0, 'filter_1': 0.0}
+47709
+{'num hi': 84, 'percent hi': 0.030107526881720432, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999974, 'avg capture to transmit': 21586.363636363636, 'avg hi pri to transmit': 1494.1142857142838, 'filter_0': 0.0, 'filter_1': 0.0}
+47710
+{'num hi': 80, 'percent hi': 0.027777777777777776, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999974, 'avg capture to transmit': 23676.923076923078, 'avg hi pri to transmit': 1042.3999999999987, 'filter_0': 0.0, 'filter_1': 0.0}
+46311
+{'num hi': 54, 'percent hi': 0.01764705882352941, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999999, 'avg capture to transmit': 26490.56603773585, 'avg hi pri to transmit': 689.5111111111112, 'filter_0': 0.0, 'filter_1': 0.0}
+47714
+{'num hi': 86, 'percent hi': 0.03082437275985663, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 22209.23076923077, 'avg hi pri to transmit': 1365.8418604651117, 'filter_0': 0.0, 'filter_1': 0.0}
+46309
+{'num hi': 75, 'percent hi': 0.026881720430107527, 'avg capture to compute': 27.272727272727273, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 25591.21212121212, 'avg hi pri to transmit': 1660.7999999999981, 'filter_0': 0.0, 'filter_1': 0.0}
+47708
+{'num hi': 102, 'percent hi': 0.03333333333333333, 'avg capture to compute': 69.72222222222223, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 25854.722222222223, 'avg hi pri to transmit': 1001.9294117647052, 'filter_0': 0.0, 'filter_1': 0.0}
+52164
+{'num hi': 280, 'percent hi': 0.09286898839137644, 'avg capture to compute': 790.0711237553343, 'avg compute to prioritize': 1.6000000000000074, 'avg capture to transmit': 18297.268847795163, 'avg hi pri to transmit': 3419.257142857157, 'filter_0': 0.0, 'filter_1': 0.0}
+52395
+{'num hi': 62, 'percent hi': 0.021527777777777778, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999985, 'avg capture to transmit': 38271.48387096774, 'avg hi pri to transmit': 1056.1419354838717, 'filter_0': 0.0, 'filter_1': 0.0}
+52396
+{'num hi': 75, 'percent hi': 0.026455026455026454, 'avg capture to compute': 47.88461538461539, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 29946.923076923078, 'avg hi pri to transmit': 2266.3999999999983, 'filter_0': 0.0, 'filter_1': 0.0}
+47706
+{'num hi': 114, 'percent hi': 0.03838383838383838, 'avg capture to compute': 335.21311475409834, 'avg compute to prioritize': 1.5999999999999965, 'avg capture to transmit': 19053.83606557377, 'avg hi pri to transmit': 1654.1894736842075, 'filter_0': 0.0, 'filter_1': 0.0}
+52397
+{'num hi': 220, 'percent hi': 0.07760141093474426, 'avg capture to compute': 526.6544117647059, 'avg compute to prioritize': 1.6000000000000032, 'avg capture to transmit': 23181.727941176472, 'avg hi pri to transmit': 4669.67272727274, 'filter_0': 0.0, 'filter_1': 0.0}
+52398
+{'num hi': 62, 'percent hi': 0.022222222222222223, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999985, 'avg capture to transmit': 30594.375, 'avg hi pri to transmit': 961.3032258064524, 'filter_0': 0.0, 'filter_1': 0.0}
+52404
+{'num hi': 66, 'percent hi': 0.022916666666666665, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999998, 'avg capture to transmit': 46594.3949044586, 'avg hi pri to transmit': 1717.4909090909048, 'filter_0': 0.0, 'filter_1': 0.0}
+47707
+{'num hi': 113, 'percent hi': 0.03863247863247863, 'avg capture to compute': 258.46153846153845, 'avg compute to prioritize': 1.5999999999999965, 'avg capture to transmit': 24779.37062937063, 'avg hi pri to transmit': 2281.0548672566338, 'filter_0': 0.0, 'filter_1': 0.0}
+52402
+{'num hi': 203, 'percent hi': 0.07048611111111111, 'avg capture to compute': 557.34375, 'avg compute to prioritize': 1.6000000000000014, 'avg capture to transmit': 20194.21875, 'avg hi pri to transmit': 3267.956650246319, 'filter_0': 0.0, 'filter_1': 0.0}
+52405
+{'num hi': 64, 'percent hi': 0.022574955908289243, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999983, 'avg capture to transmit': 30243.396226415094, 'avg hi pri to transmit': 802.7750000000004, 'filter_0': 0.0, 'filter_1': 0.0}
+52166
+{'num hi': 163, 'percent hi': 0.05406301824212272, 'avg capture to compute': 399.09574468085106, 'avg compute to prioritize': 1.5999999999999963, 'avg capture to transmit': 22495.531914893618, 'avg hi pri to transmit': 2809.197546012281, 'filter_0': 0.0, 'filter_1': 0.0}
+52399
+{'num hi': 70, 'percent hi': 0.024305555555555556, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999979, 'avg capture to transmit': 34549.68152866242, 'avg hi pri to transmit': 1312.3999999999999, 'filter_0': 0.0, 'filter_1': 0.0}
+52403
+{'num hi': 67, 'percent hi': 0.0236331569664903, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999998, 'avg capture to transmit': 33869.620253164554, 'avg hi pri to transmit': 1125.8626865671645, 'filter_0': 0.0, 'filter_1': 0.0}
+52176
+{'num hi': 80, 'percent hi': 0.026143790849673203, 'avg capture to compute': 29.238578680203045, 'avg compute to prioritize': 1.5999999999999974, 'avg capture to transmit': 26612.89340101523, 'avg hi pri to transmit': 959.1500000000002, 'filter_0': 0.0, 'filter_1': 0.0}
+46305
+{'num hi': 89, 'percent hi': 0.03242258652094718, 'avg capture to compute': 14.347826086956522, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 31793.804347826088, 'avg hi pri to transmit': 1828.7370786516835, 'filter_0': 0.0, 'filter_1': 0.0}
+47712
+{'num hi': 101, 'percent hi': 0.035069444444444445, 'avg capture to compute': 126.32911392405063, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 23612.91139240506, 'avg hi pri to transmit': 1803.7465346534625, 'filter_0': 0.0, 'filter_1': 0.0}
+52406
+{'num hi': 55, 'percent hi': 0.018518518518518517, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999999, 'avg capture to transmit': 31237.974683544304, 'avg hi pri to transmit': 495.85454545454644, 'filter_0': 0.0, 'filter_1': 0.0}
+52400
+{'num hi': 63, 'percent hi': 0.021538461538461538, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999983, 'avg capture to transmit': 30438.076923076922, 'avg hi pri to transmit': 908.8761904761909, 'filter_0': 0.0, 'filter_1': 0.0}
+47703
+{'num hi': 92, 'percent hi': 0.032451499118165784, 'avg capture to compute': 92.77533039647577, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 34008.898678414094, 'avg hi pri to transmit': 3167.965217391307, 'filter_0': 0.0, 'filter_1': 0.0}
+52408
+{'num hi': 152, 'percent hi': 0.05117845117845118, 'avg capture to compute': 517.0491803278688, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 16957.54098360656, 'avg hi pri to transmit': 1789.3210526315759, 'filter_0': 0.0, 'filter_1': 0.0}
+52401
+{'num hi': 71, 'percent hi': 0.023905723905723906, 'avg capture to compute': 4.666666666666667, 'avg compute to prioritize': 1.5999999999999979, 'avg capture to transmit': 30475.333333333332, 'avg hi pri to transmit': 971.0760563380271, 'filter_0': 0.0, 'filter_1': 0.0}
+47705
+{'num hi': 247, 'percent hi': 0.08576388888888889, 'avg capture to compute': 729.7072419106318, 'avg compute to prioritize': 1.6000000000000052, 'avg capture to transmit': 8712.203389830509, 'avg hi pri to transmit': 2564.313043478264, 'filter_0': 0.0, 'filter_1': 0.0}
+52187
+{'num hi': 184, 'percent hi': 0.061952861952861954, 'avg capture to compute': 453.38709677419354, 'avg compute to prioritize': 1.5999999999999992, 'avg capture to transmit': 24827.782258064515, 'avg hi pri to transmit': 3852.7478260869666, 'filter_0': 0.0, 'filter_1': 0.0}
+52185
+{'num hi': 338, 'percent hi': 0.11555555555555555, 'avg capture to compute': 1275.9036144578313, 'avg compute to prioritize': 1.6000000000000099, 'avg capture to transmit': 22102.12048192771, 'avg hi pri to transmit': 5026.684023668593, 'filter_0': 0.0, 'filter_1': 0.0}
+52394
+{'num hi': 87, 'percent hi': 0.028855721393034824, 'avg capture to compute': 41.92139737991266, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 33563.842794759825, 'avg hi pri to transmit': 1903.9172413793058, 'filter_0': 0.0, 'filter_1': 0.0}
+52410
+{'num hi': 126, 'percent hi': 0.04057971014492753, 'avg capture to compute': 245.68047337278105, 'avg compute to prioritize': 1.5999999999999963, 'avg capture to transmit': 26580.3550295858, 'avg hi pri to transmit': 1612.2095238095203, 'filter_0': 0.0, 'filter_1': 0.0}
+47711
+{'num hi': 182, 'percent hi': 0.06419753086419754, 'avg capture to compute': 642.7858627858628, 'avg compute to prioritize': 1.599999999999999, 'avg capture to transmit': 28173.180873180874, 'avg hi pri to transmit': 4718.290109890125, 'filter_0': 0.0, 'filter_1': 0.0}
+52409
+{'num hi': 66, 'percent hi': 0.021890547263681594, 'avg capture to compute': 22.0, 'avg compute to prioritize': 1.599999999999998, 'avg capture to transmit': 28704.85714285714, 'avg hi pri to transmit': 815.672727272728, 'filter_0': 0.0, 'filter_1': 0.0}
+52407
+{'num hi': 327, 'percent hi': 0.10845771144278607, 'avg capture to compute': 1173.3736396614268, 'avg compute to prioritize': 1.6000000000000096, 'avg capture to transmit': 25968.609431680772, 'avg hi pri to transmit': 4635.831192660501, 'filter_0': 0.0, 'filter_1': 0.0}
+52411
+{'num hi': 97, 'percent hi': 0.031239935587761676, 'avg capture to compute': 48.97435897435897, 'avg compute to prioritize': 1.599999999999997, 'avg capture to transmit': 30354.615384615383, 'avg hi pri to transmit': 2092.214432989686, 'filter_0': 0.0, 'filter_1': 0.0}
+52413
+{'num hi': 54, 'percent hi': 0.01791044776119403, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.599999999999999, 'avg capture to transmit': 36591.87096774193, 'avg hi pri to transmit': 209.51111111111092, 'filter_0': 0.0, 'filter_1': 0.0}
+47704
+{'num hi': 70, 'percent hi': 0.025500910746812388, 'avg capture to compute': 7.415730337078652, 'avg compute to prioritize': 1.5999999999999979, 'avg capture to transmit': 29801.460674157304, 'avg hi pri to transmit': 1820.685714285712, 'filter_0': 0.0, 'filter_1': 0.0}
+52412
+{'num hi': 80, 'percent hi': 0.026936026936026935, 'avg capture to compute': 15.728155339805825, 'avg compute to prioritize': 1.5999999999999974, 'avg capture to transmit': 32333.300970873788, 'avg hi pri to transmit': 1909.3999999999955, 'filter_0': 0.0, 'filter_1': 0.0}
+52415
+{'num hi': 88, 'percent hi': 0.029187396351575457, 'avg capture to compute': 11.176470588235293, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 37830.294117647056, 'avg hi pri to transmit': 2221.8090909090865, 'filter_0': 0.0, 'filter_1': 0.0}
+52414
+{'num hi': 71, 'percent hi': 0.023548922056384744, 'avg capture to compute': 1.8072289156626506, 'avg compute to prioritize': 1.5999999999999979, 'avg capture to transmit': 26854.698795180724, 'avg hi pri to transmit': 791.9211267605637, 'filter_0': 0.0, 'filter_1': 0.0}
+52417
+{'num hi': 56, 'percent hi': 0.018855218855218854, 'avg capture to compute': 1.0843373493975903, 'avg compute to prioritize': 1.599999999999999, 'avg capture to transmit': 34973.132530120485, 'avg hi pri to transmit': 336.971428571429, 'filter_0': 0.0, 'filter_1': 0.0}
+52416
+{'num hi': 60, 'percent hi': 0.01990049751243781, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999985, 'avg capture to transmit': 35658.72611464968, 'avg hi pri to transmit': 184.39999999999978, 'filter_0': 0.0, 'filter_1': 0.0}
+52183
+{'num hi': 109, 'percent hi': 0.038447971781305115, 'avg capture to compute': 67.07317073170732, 'avg compute to prioritize': 1.5999999999999968, 'avg capture to transmit': 28273.414634146342, 'avg hi pri to transmit': 1542.9871559632998, 'filter_0': 0.0, 'filter_1': 0.0}
+52186
+{'num hi': 76, 'percent hi': 0.026807760141093474, 'avg capture to compute': 57.073170731707314, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 31609.756097560974, 'avg hi pri to transmit': 2412.6105263157865, 'filter_0': 0.0, 'filter_1': 0.0}
+47715
+{'num hi': 142, 'percent hi': 0.05089605734767025, 'avg capture to compute': 493.12, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 24344.0, 'avg hi pri to transmit': 2191.7802816901426, 'filter_0': 0.0, 'filter_1': 0.0}
+52177
+{'num hi': 181, 'percent hi': 0.06284722222222222, 'avg capture to compute': 470.2597402597403, 'avg compute to prioritize': 1.599999999999999, 'avg capture to transmit': 15554.025974025973, 'avg hi pri to transmit': 2675.4992366412275, 'filter_0': 0.0, 'filter_1': 0.0}
+52181
+{'num hi': 268, 'percent hi': 0.0960573476702509, 'avg capture to compute': 656.8273716951788, 'avg compute to prioritize': 1.6000000000000065, 'avg capture to transmit': 27097.41835147745, 'avg hi pri to transmit': 4844.071641791022, 'filter_0': 0.0, 'filter_1': 0.0}
+52180
+{'num hi': 235, 'percent hi': 0.08289241622574955, 'avg capture to compute': 733.0084033613446, 'avg compute to prioritize': 1.6000000000000043, 'avg capture to transmit': 17790.453781512606, 'avg hi pri to transmit': 3712.7829787234223, 'filter_0': 0.0, 'filter_1': 0.0}
+52182
+{'num hi': 139, 'percent hi': 0.04982078853046595, 'avg capture to compute': 196.21621621621622, 'avg compute to prioritize': 1.599999999999996, 'avg capture to transmit': 22832.61261261261, 'avg hi pri to transmit': 2359.1194244604353, 'filter_0': 0.0, 'filter_1': 0.0}
+43139
+{'num hi': 210, 'percent hi': 0.07179487179487179, 'avg capture to compute': 920.199203187251, 'avg compute to prioritize': 1.600000000000002, 'avg capture to transmit': 24967.410358565736, 'avg hi pri to transmit': 2488.4000000000124, 'filter_0': 0.0, 'filter_1': 0.0}
+43140
+{'num hi': 56, 'percent hi': 0.018855218855218854, 'avg capture to compute': 2.8402366863905324, 'avg compute to prioritize': 1.599999999999999, 'avg capture to transmit': 26340.0, 'avg hi pri to transmit': 734.4714285714288, 'filter_0': 0.0, 'filter_1': 0.0}
+52179
+{'num hi': 76, 'percent hi': 0.02724014336917563, 'avg capture to compute': 11.871657754010695, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 27775.1871657754, 'avg hi pri to transmit': 1067.3473684210505, 'filter_0': 0.0, 'filter_1': 0.0}
+43141
+{'num hi': 64, 'percent hi': 0.02188034188034188, 'avg capture to compute': 1.7964071856287425, 'avg compute to prioritize': 1.5999999999999983, 'avg capture to transmit': 26396.766467065867, 'avg hi pri to transmit': 649.9625000000002, 'filter_0': 0.0, 'filter_1': 0.0}
+43142
+{'num hi': 91, 'percent hi': 0.03427495291902072, 'avg capture to compute': 232.6027397260274, 'avg compute to prioritize': 1.5999999999999972, 'avg capture to transmit': 21448.219178082192, 'avg hi pri to transmit': 1601.2571428571405, 'filter_0': 0.0, 'filter_1': 0.0}
+48896
+{'num hi': 41, 'percent hi': 0.031417624521072794, 'avg capture to compute': 6.610169491525424, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 22004.745762711864, 'avg hi pri to transmit': 1116.448780487806, 'filter_0': 0.0, 'filter_1': 0.0}
+48882
+{'num hi': 34, 'percent hi': 0.03148148148148148, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 29463.75, 'avg hi pri to transmit': 2273.1058823529393, 'filter_0': 0.0, 'filter_1': 0.0}
+48887
+{'num hi': 77, 'percent hi': 0.0712962962962963, 'avg capture to compute': 349.74874371859295, 'avg compute to prioritize': 1.5999999999999976, 'avg capture to transmit': 22961.909547738695, 'avg hi pri to transmit': 3696.5818181818167, 'filter_0': 0.0, 'filter_1': 0.0}
+48899
+{'num hi': 36, 'percent hi': 0.03333333333333333, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 22523.684210526317, 'avg hi pri to transmit': 2045.066666666664, 'filter_0': 0.0, 'filter_1': 0.0}
+48933
+{'num hi': 28, 'percent hi': 0.02962962962962963, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 27324.347826086956, 'avg hi pri to transmit': 2128.400000000001, 'filter_0': 0.0, 'filter_1': 0.0}
+48895
+{'num hi': 38, 'percent hi': 0.031275720164609055, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 33276.62337662338, 'avg hi pri to transmit': 2122.084210526313, 'filter_0': 0.0, 'filter_1': 0.0}
+48904
+{'num hi': 28, 'percent hi': 0.023931623931623933, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 34382.27848101266, 'avg hi pri to transmit': 2126.257142857144, 'filter_0': 0.0, 'filter_1': 0.0}
+48893
+{'num hi': 27, 'percent hi': 0.02142857142857143, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 29392.40506329114, 'avg hi pri to transmit': 313.95555555555535, 'filter_0': 0.0, 'filter_1': 0.0}
+48947
+{'num hi': 28, 'percent hi': 0.023931623931623933, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 25026.923076923078, 'avg hi pri to transmit': 1547.6857142857154, 'filter_0': 0.0, 'filter_1': 0.0}
+48888
+{'num hi': 36, 'percent hi': 0.025, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 11942.307692307691, 'avg hi pri to transmit': 180.06666666666658, 'filter_0': 0.0, 'filter_1': 0.0}
+48937
+{'num hi': 30, 'percent hi': 0.023809523809523808, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 15761.25, 'avg hi pri to transmit': 2344.3999999999983, 'filter_0': 0.0, 'filter_1': 0.0}
+48936
+{'num hi': 27, 'percent hi': 0.02, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 17637.66233766234, 'avg hi pri to transmit': 1189.5111111111119, 'filter_0': 0.0, 'filter_1': 0.0}
+48940
+{'num hi': 38, 'percent hi': 0.02724014336917563, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 14446.753246753247, 'avg hi pri to transmit': 131.03157894736842, 'filter_0': 0.0, 'filter_1': 0.0}
+46942
+{'num hi': 64, 'percent hi': 0.06772486772486773, 'avg capture to compute': 320.96385542168673, 'avg compute to prioritize': 1.5999999999999983, 'avg capture to transmit': 992.1686746987951, 'avg hi pri to transmit': 1112.313043478262, 'filter_0': 0.0, 'filter_1': 0.0}
+48939
+{'num hi': 28, 'percent hi': 0.017777777777777778, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 9603.79746835443, 'avg hi pri to transmit': 146.2571428571429, 'filter_0': 0.0, 'filter_1': 0.0}
+46938
+{'num hi': 74, 'percent hi': 0.07474747474747474, 'avg capture to compute': 444.48979591836735, 'avg compute to prioritize': 1.5999999999999979, 'avg capture to transmit': 0.0, 'avg hi pri to transmit': -1.6000000000000003, 'filter_0': 0.0, 'filter_1': 0.0}
+48889
+{'num hi': 29, 'percent hi': 0.016524216524216526, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 13361.538461538461, 'avg hi pri to transmit': 128.74482758620692, 'filter_0': 0.0, 'filter_1': 0.0}
+48891
+{'num hi': 30, 'percent hi': 0.017094017094017096, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 9808.860759493671, 'avg hi pri to transmit': 196.39999999999995, 'filter_0': 0.0, 'filter_1': 0.0}
+46934
+{'num hi': 26, 'percent hi': 0.027513227513227514, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 3111.864406779661, 'avg hi pri to transmit': 960.7076923076935, 'filter_0': 0.0, 'filter_1': 0.0}
+46959
+{'num hi': 25, 'percent hi': 0.021367521367521368, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 12892.5, 'avg hi pri to transmit': 2175.200000000001, 'filter_0': 0.0, 'filter_1': 0.0}
+46951
+{'num hi': 31, 'percent hi': 0.028703703703703703, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 8612.658227848102, 'avg hi pri to transmit': 2440.980645161287, 'filter_0': 0.0, 'filter_1': 0.0}
+46957
+{'num hi': 37, 'percent hi': 0.029365079365079365, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 17427.272727272728, 'avg hi pri to transmit': 2226.5081081081053, 'filter_0': 0.0, 'filter_1': 0.0}
+48883
+{'num hi': 71, 'percent hi': 0.03848238482384824, 'avg capture to compute': 330.5806451612903, 'avg compute to prioritize': 1.5999999999999979, 'avg capture to transmit': 6950.322580645161, 'avg hi pri to transmit': 324.1142857142855, 'filter_0': 0.0, 'filter_1': 0.0}
+48886
+{'num hi': 49, 'percent hi': 0.025925925925925925, 'avg capture to compute': 84.28571428571429, 'avg compute to prioritize': 1.5999999999999996, 'avg capture to transmit': 8228.57142857143, 'avg hi pri to transmit': 131.2571428571429, 'filter_0': 0.0, 'filter_1': 0.0}
+48934
+{'num hi': 29, 'percent hi': 0.01611111111111111, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 19730.76923076923, 'avg hi pri to transmit': 310.8137931034481, 'filter_0': 0.0, 'filter_1': 0.0}
+48890
+{'num hi': 26, 'percent hi': 0.014092140921409214, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 11080.51948051948, 'avg hi pri to transmit': 219.9384615384615, 'filter_0': 0.0, 'filter_1': 0.0}
+46948
+{'num hi': 32, 'percent hi': 0.024521072796934867, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 11586.075949367088, 'avg hi pri to transmit': 281.52499999999986, 'filter_0': 0.0, 'filter_1': 0.0}
+48894
+{'num hi': 31, 'percent hi': 0.016802168021680216, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 10350.0, 'avg hi pri to transmit': 178.39999999999995, 'filter_0': 0.0, 'filter_1': 0.0}
+46936
+{'num hi': 35, 'percent hi': 0.025925925925925925, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 17988.31168831169, 'avg hi pri to transmit': 2036.6857142857118, 'filter_0': 0.0, 'filter_1': 0.0}
+46949
+{'num hi': 27, 'percent hi': 0.01818181818181818, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 17020.25316455696, 'avg hi pri to transmit': 269.511111111111, 'filter_0': 0.0, 'filter_1': 0.0}
+48884
+{'num hi': 30, 'percent hi': 0.017094017094017096, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 13837.5, 'avg hi pri to transmit': 270.39999999999986, 'filter_0': 0.0, 'filter_1': 0.0}
+46958
+{'num hi': 25, 'percent hi': 0.016835016835016835, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 17792.30769230769, 'avg hi pri to transmit': 197.59999999999997, 'filter_0': 0.0, 'filter_1': 0.0}
+46941
+{'num hi': 25, 'percent hi': 0.017361111111111112, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 14850.0, 'avg hi pri to transmit': 250.39999999999992, 'filter_0': 0.0, 'filter_1': 0.0}
+46946
+{'num hi': 33, 'percent hi': 0.022916666666666665, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 29700.0, 'avg hi pri to transmit': 2207.4909090909064, 'filter_0': 0.0, 'filter_1': 0.0}
+48897
+{'num hi': 27, 'percent hi': 0.01875, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 24510.38961038961, 'avg hi pri to transmit': 196.17777777777775, 'filter_0': 0.0, 'filter_1': 0.0}
+48949
+{'num hi': 26, 'percent hi': 0.018055555555555554, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 22283.54430379747, 'avg hi pri to transmit': 270.70769230769207, 'filter_0': 0.0, 'filter_1': 0.0}
+46960
+{'num hi': 30, 'percent hi': 0.022222222222222223, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 11475.0, 'avg hi pri to transmit': 332.39999999999986, 'filter_0': 0.0, 'filter_1': 0.0}
+48935
+{'num hi': 68, 'percent hi': 0.05037037037037037, 'avg capture to compute': 211.07142857142858, 'avg compute to prioritize': 1.599999999999998, 'avg capture to transmit': 19358.214285714286, 'avg hi pri to transmit': 2519.2823529411726, 'filter_0': 0.0, 'filter_1': 0.0}
+48946
+{'num hi': 35, 'percent hi': 0.025925925925925925, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 14730.379746835442, 'avg hi pri to transmit': 349.8285714285712, 'filter_0': 0.0, 'filter_1': 0.0}
+46956
+{'num hi': 31, 'percent hi': 0.024603174603174603, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 14217.721518987342, 'avg hi pri to transmit': 331.30322580645145, 'filter_0': 0.0, 'filter_1': 0.0}
+46953
+{'num hi': 27, 'percent hi': 0.023076923076923078, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 17774.430379746835, 'avg hi pri to transmit': 189.5111111111111, 'filter_0': 0.0, 'filter_1': 0.0}
+48932
+{'num hi': 29, 'percent hi': 0.025777777777777778, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000008, 'avg capture to transmit': 11175.949367088608, 'avg hi pri to transmit': 66.67586206896559, 'filter_0': 0.0, 'filter_1': 0.0}
+48945
+{'num hi': 16, 'percent hi': 0.017777777777777778, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000003, 'avg capture to transmit': 26584.615384615383, 'avg hi pri to transmit': 200.90000000000006, 'filter_0': 0.0, 'filter_1': 0.0}
+46945
+{'num hi': 15, 'percent hi': 0.0196078431372549, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000003, 'avg capture to transmit': 19823.684210526317, 'avg hi pri to transmit': 30.399999999999984, 'filter_0': 0.0, 'filter_1': 0.0}
+46937
+{'num hi': 17, 'percent hi': 0.022222222222222223, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000003, 'avg capture to transmit': 26238.46153846154, 'avg hi pri to transmit': -1.6000000000000003, 'filter_0': 0.0, 'filter_1': 0.0}
+46952
+{'num hi': 15, 'percent hi': 0.018518518518518517, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000003, 'avg capture to transmit': 22707.69230769231, 'avg hi pri to transmit': 98.40000000000003, 'filter_0': 0.0, 'filter_1': 0.0}
+46933
+{'num hi': 17, 'percent hi': 0.022222222222222223, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000003, 'avg capture to transmit': 19661.53846153846, 'avg hi pri to transmit': 93.69411764705886, 'filter_0': 0.0, 'filter_1': 0.0}
+46939
+{'num hi': 17, 'percent hi': 0.019883040935672516, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000003, 'avg capture to transmit': 22084.615384615383, 'avg hi pri to transmit': 79.57647058823534, 'filter_0': 0.0, 'filter_1': 0.0}
+46947
+{'num hi': 18, 'percent hi': 0.02, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000005, 'avg capture to transmit': 830.7692307692307, 'avg hi pri to transmit': 195.06666666666672, 'filter_0': 0.0, 'filter_1': 0.0}
+46935
+{'num hi': 11, 'percent hi': 0.012865497076023392, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999999, 'avg capture to transmit': 830.7692307692307, 'avg hi pri to transmit': 140.21818181818185, 'filter_0': 0.0, 'filter_1': 0.0}
+46944
+{'num hi': 17, 'percent hi': 0.01888888888888889, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.6000000000000003, 'avg capture to transmit': 2492.3076923076924, 'avg hi pri to transmit': 436.04705882352926, 'filter_0': 0.0, 'filter_1': 0.0}
+46950
+{'num hi': 11, 'percent hi': 0.012222222222222223, 'avg capture to compute': 0.0, 'avg compute to prioritize': 1.5999999999999999, 'avg capture to transmit': 1065.7894736842106, 'avg hi pri to transmit': 287.49090909090916, 'filter_0': 0.0, 'filter_1': 0.0}

@@ -307,6 +307,9 @@ class Node:
         
         if len(self.transmitPacketQueue) > 0:
             outPacket = self.transmitPacketQueue.pop()
+            if len(outPacket) == 2:
+                outPacket[1].pipeline.log_event("transmitted")
+                outPacket = outPacket[0]
             Print("Sending", outPacket, "from", self)
             # Log("Sending packet from", self, outPacket)
 

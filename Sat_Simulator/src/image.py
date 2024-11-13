@@ -57,8 +57,8 @@ class ImageLogger(object):
             filter_1 = 0
 
             for image in images:
-                if image.pipeline.events['captured'] and image.pipeline.events['prioritized_high']:
-                    capture_to_compute -= Time.difference_in_seconds(image.pipeline.events['captured'], image.pipeline.events['prioritized_high'])
+                if image.pipeline.events['captured'] and image.pipeline.events['pop_from_compute_queue']:
+                    capture_to_compute -= Time.difference_in_seconds(image.pipeline.events['captured'], image.pipeline.events['pop_from_compute_queue'])
                     capture_to_compute_den += 1
                 if image.pipeline.events['captured'] and image.pipeline.events['transmitted']:
                     capture_to_transmit -= Time.difference_in_seconds(image.pipeline.events['captured'], image.pipeline.events['transmitted'])
@@ -82,7 +82,7 @@ class ImageLogger(object):
                 #     if image.pipeline.events[filter[1][0]]:
                 #         filter_1 += 1
             
-            satellite_analytics[satellite] = {"percent hi": percent_hi_num / percent_hi_den, "avg capture to compute": capture_to_compute / capture_to_compute_den, "avg compute to prioritize": compute_to_prioritize / compute_to_prioritize_den, "avg capture to transmit": capture_to_transmit / capture_to_compute_den, "avg hi pri to transmit": hi_prioritize_to_transmit / hi_prioritize_to_transmit_den, "filter_0": filter_0 / total, "filter_1": filter_1 / total}
+            satellite_analytics[satellite] = {"num hi": percent_hi_num, "percent hi": percent_hi_num / percent_hi_den, "avg capture to compute": capture_to_compute / capture_to_compute_den, "avg compute to prioritize": compute_to_prioritize / compute_to_prioritize_den, "avg capture to transmit": capture_to_transmit / capture_to_compute_den, "avg hi pri to transmit": hi_prioritize_to_transmit / hi_prioritize_to_transmit_den, "filter_0": filter_0 / total, "filter_1": filter_1 / total}
         return satellite_analytics
             
 
