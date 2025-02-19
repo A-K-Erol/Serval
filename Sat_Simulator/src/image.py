@@ -1,6 +1,7 @@
 import random
 from typing import Dict, List
 from shapely.geometry import Polygon
+from src.application import Application
 
 from src.data import Data
 from src.utils import Time
@@ -36,9 +37,10 @@ class ImageLogger(object):
         satellite_images = {}
         satellite_analytics = {}
         for image in self.images:
-            if image.satellite not in satellite_images:
-                satellite_images[image.satellite] = []
-            satellite_images[image.satellite].append(image)
+            if image.pipeline.events['captured'] and image.pipeline.events['transmitted']:
+                if image.satellite not in satellite_images:
+                    satellite_images[image.satellite] = []
+                satellite_images[image.satellite].append(image)
 
         for satellite, images in satellite_images.items():
             total = len(images)
@@ -83,29 +85,31 @@ class ImageLogger(object):
                 #         filter_1 += 1
             
             satellite_analytics[satellite] = {"num hi": percent_hi_num, "percent hi": percent_hi_num / percent_hi_den, "avg capture to compute": capture_to_compute / capture_to_compute_den, "avg compute to prioritize": compute_to_prioritize / compute_to_prioritize_den, "avg capture to transmit": capture_to_transmit / capture_to_compute_den, "avg hi pri to transmit": hi_prioritize_to_transmit / hi_prioritize_to_transmit_den, "filter_0": filter_0 / total, "filter_1": filter_1 / total}
+            keys = list(satellite_analytics[satellite].keys())
+            for key in keys:
+                if satellite_analytics[satellite][key] == 0:
+                    del satellite_analytics[satellite][key]
         return satellite_analytics
-            
-
-
-
-
 
 
 class ImagePipeline(object):
-    def __init__(self, filters: List[str] = []):
+    def __init__(self, filters: List[str] = [], application: Application = None, candidate_applications: List[str] = []):
         self.filters = filters
-        self.events = {'captured' : 0, 
-                       'prioritized_low' : 0, 
-                       'put_in_compute_queue' : 0, 
-                       'pop_from_compute_queue' : 0,
-                       'prioritized_high' : 0, 
-                       'transmitted' : 0}
+        self.application = application
+        self.candidate_applications = candidate_applications
+        self.events = {'captured' : None, 
+                       'prioritized_low' : None, 
+                       'put_in_compute_queue' : None, 
+                       'pop_from_compute_queue' : None,
+                       'prioritized_high' : None, 
+                       'transmitted' : None}
         
         self.max_filter_time = 0
-        for filter, probability, time in filters:
-            self.events[filter] = 0
-            self.max_filter_time += time
-
+        if filters:
+            for filter, probability, time in filters:
+                self.events[filter] = 0
+                self.max_filter_time += time
+                
     def log_event(self, event, time = None):
         if event not in self.events:
             print("Event not found")
@@ -113,18 +117,26 @@ class ImagePipeline(object):
             self.events[event] = time
         else:
             self.events[event] = log.get_logging_time()
+            
 
     def apply_filter(self):
-        self.log_event("pop_from_compute_queue")
         curr_time = log.get_logging_time().copy()
-        for filter_name, filter_pass_rate, filter_time in self.filters:
-            curr_time.add_seconds(filter_time)
-            self.log_event(filter_name, curr_time)
-            if filter_pass_rate < random.random():
-                self.log_event("prioritized_low", curr_time)
-                return False, Time.difference_in_seconds(curr_time, log.get_logging_time())
-        self.log_event("prioritized_high", curr_time)
-        return True, Time.difference_in_seconds(curr_time, log.get_logging_time())
+
+        if self.filter:
+            self.log_event("pop_from_compute_queue")
+            for filter_name, filter_pass_rate, filter_time in self.filters:
+                curr_time.add_seconds(filter_time)
+                self.log_event(filter_name, curr_time)
+                if filter_pass_rate < random.random():
+                    self.log_event("prioritized_low", curr_time)
+                    return False, Time.difference_in_seconds(curr_time, log.get_logging_time())
+            self.log_event("prioritized_high", curr_time)
+            return True, Time.difference_in_seconds(curr_time, log.get_logging_time())
+        
+        else:
+            result, time = self.application.is_high_priority(self.candidate_applications)
+            time_diff = Time.difference_in_seconds(curr_time.add_seconds(time), log.get_logging_time())
+            return result, time_diff
     
     def __str__(self):
         event_pairs = [
@@ -145,9 +157,7 @@ class ImagePipeline(object):
 class Image(Data):
     id = 0
 
-    def __init__(self, size: int, region: 'Polygon', time: 'Time', 
-                 filter_result: Dict[str, List[float]] = {}, 
-                 side_channel_info: Dict[str, float] = {},
+    def __init__(self, size: int, time: 'Time', coord=[0,0],
                  name="", Pipeline: 'ImagePipeline' = None, satellite = None):
         
         """
@@ -162,15 +172,14 @@ class Image(Data):
         super().__init__(size)
         self.satellite = satellite
         self.time = time
-        self.region = region
+        self.coord = coord
         self.size = size
-        self.filter_result = filter_result
         self.id = Image.id
         self.compute_storage = None
         self.score = None
+        self.compute_time = 0
         Image.id += 1
         self.name = name
-        self.side_channel_info = side_channel_info
         self.descriptor = ""
         self.pipeline = Pipeline
 

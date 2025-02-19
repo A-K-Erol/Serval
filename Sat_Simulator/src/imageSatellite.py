@@ -42,35 +42,22 @@ class ImageSatellite (NodeDecorator):
         Loads the packet buffer with data
         """
         if len(self.transmitPacketQueue) < 600 and len(self.dataQueue) > 0:
-            a_original = len(self.dataQueue)
-            b_original = len(self.transmitPacketQueue)
             while len(self.transmitPacketQueue) < 600 and len(self.dataQueue) > 0:
-                
                 dataObj = self.dataQueue.pop()    
                 if type(dataObj) == Image:
                     dataObj.pipeline.log_event("transmitted")  
-                    if dataObj.descriptor == "Pass Dynamic":
-                        Metrics.metr().hipri_sent += 1
-                        Metrics.metr().transmit_delay[1] += 1
-                        Metrics.metr().transmit_delay[0] += (log.loggingCurrentTime.to_datetime() - dataObj.time).total_seconds()
 
                 if dataObj.size == const.DATA_SIZE:
                     packets = dataObj.to_packets()
                 else:
                     packets = dataObj.to_packets(dataObj.size)
                 
-                packets[0].image = dataObj
-                
-                
+                packets[0].image = dataObj                
                 for packet in packets:
                     self.transmitPacketQueue.appendleft((packet, dataObj))
-            
-            if len(self.transmitPacketQueue) > 0:
-                print("Packets waiting, ", len(self.transmitPacketQueue))
-                print("Queue updated", a_original, len(self.dataQueue), b_original, len(self.transmitPacketQueue))
-        #self.convert_data_objects_to_transmit_buffer()
+
     
     def recieve_packet(self, pck: Packet) -> None:
+        # Do nothing
         self.generate_ack(pck)
         pass
-        ##Do nothing for now. Implemented it if u need it

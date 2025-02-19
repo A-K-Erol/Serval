@@ -10,3 +10,6 @@ Sat_Simulator/src/__pycache__/node.cpython-312.pyc
 Sat_Simulator/src/__pycache__/imageSatellite.cpython-312.pyc
 Sat_Simulator/src/__pycache__/imageSamplingSatellite.cpython-312.pyc
 Sat_Simulator/images.txt
+*.pyc
+*.pyc
+*.pyc
