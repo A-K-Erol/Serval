@@ -8,22 +8,21 @@
             [32.5, -117.1],
             [36.6, -121.9]
         ],
-        "dynamic_probability" : 0.5,
-        "static_probability" : 0.5,
+        "dynamic_probability" : 1.0,
+        "static_probability" : 1.0,
         "eval_time" : 2.3
     },
 
     "Base" : 
     {
-        "polygon": [
-        [56.6, -143.0],
-        [56.6, -95.0],
-        [18.0, -95.0],
-        [18.0, -143.0],
-        [56.6, -143.0]  
+        "polygon" : [
+            [180, 180],
+            [180, 0], 
+            [0, 0],  
+            [0, 180]
         ],
-        "dynamic_probability" : 0.5,
-        "static_probability" : 0.5,
+        "dynamic_probability" : 1.0,
+        "static_probability" : 1.0,
         "eval_time" : 1.0
     }
 }

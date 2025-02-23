@@ -6,6 +6,7 @@ import math
 import matplotlib.pyplot as plt # type: ignore
 from time import time as time_now # type: ignore
 import scipy
+import concurrent.futures
 
 import numpy as np # type: ignore
 import networkx as nx # type: ignore
@@ -102,7 +103,8 @@ class Routing:
         elif const.ROUTING_MECHANISM == RoutingMechanism.aloha_and_l2d2:
             return self.aloha_and_l2d2(self.topology.possibleLinks)
         elif const.ROUTING_MECHANISM == RoutingMechanism.ours:
-            return self.ours(self.topology.possibleLinks)
+            return self.parallel_our_downlink(self.topology.possibleLinks)
+            # return self.ours(self.topology.possibleLinks)
         elif const.ROUTING_MECHANISM == RoutingMechanism.single_and_ours:
             return self.single_and_ours(self.topology.possibleLinks)
         elif const.ROUTING_MECHANISM == RoutingMechanism.aloha_and_ours:
@@ -397,6 +399,113 @@ class Routing:
                             link.gs.increase_alpha()
                             devices.add(link.gs)
         
+        return possibleLinks
+    
+
+
+    def parallel_our_downlink(self, possibleLinks):
+        global distanceBetweenGS, lastTransmitted
+
+        # Compute distanceBetweenGS in parallel if it hasn't been done
+        if not distanceBetweenGS:
+            def compute_distances(gs1):
+                return gs1, {gs2: gs1.position.get_distance(gs2.position) for gs2 in self.topology.groundList if gs1.recieveAble}
+            
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                results = executor.map(compute_distances, [gs for gs in self.topology.groundList if gs.recieveAble])
+            
+            distanceBetweenGS = dict(results)
+
+        # Initialize lastTransmitted if empty
+        if not lastTransmitted:
+            lastTransmitted = {sat: 1 for sat in self.topology.satList}
+
+        print("Scheduling Downlink Ours")
+
+        # Create graph and data structures
+        grph = nx.Graph()
+        satLinks = {sat: [] for sat in self.topology.satList}
+        validGs = {gs: [] for gs in self.topology.groundList if gs.recieveAble}
+
+        # Parallelize link processing
+        def process_sat_links(sat):
+            local_links = []
+            for gs, link in possibleLinks[sat].items():
+                if gs.recieveAble:
+                    local_links.append(link)
+            return sat, local_links
+
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            results = executor.map(process_sat_links, self.topology.satList)
+
+        for sat, links in results:
+            satLinks[sat] = links
+            for link in links:
+                grph.add_node(link, weight=(link.snr + 10000))
+                validGs[link.gs].append(link)
+
+        # Parallelize edge computation (collect edges first, then add them sequentially)
+        edge_list = []
+
+        def compute_sat_edges(sat):
+            local_edges = []
+            for link1 in satLinks[sat]:
+                for link2 in satLinks[sat]:
+                    if link1 != link2 and link1.gs.recieveAble and link2.gs.recieveAble:
+                        if distanceBetweenGS[link1.gs][link2.gs] < 0:
+                            local_edges.append((link1, link2))
+            return local_edges
+
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            edge_results = executor.map(compute_sat_edges, satLinks.keys())
+
+        for edges in edge_results:
+            edge_list.extend(edges)
+
+        grph.add_edges_from(edge_list)
+
+        # Compute independent set (sequential, as it's complex)
+        if grph.edges:
+            adj_0 = nx.adjacency_matrix(grph).todense()
+            a = -np.array([-grph.nodes[u]['weight'] for u in grph.nodes])
+            IS = -np.ones(adj_0.shape[0])
+
+            while np.any(IS == -1):
+                rem_vector = IS == -1
+                adj = adj_0.copy()
+                adj = adj[rem_vector, :]
+                adj = adj[:, rem_vector]
+
+                u = np.argmin(a[rem_vector].dot(adj != 0) / a[rem_vector])
+                n_IS = -np.ones(adj.shape[0])
+                n_IS[u] = 1
+                neighbors = np.argwhere(adj[u, :] != 0)
+                if neighbors.shape[0]:
+                    n_IS[neighbors] = 0
+                IS[rem_vector] = n_IS
+
+            goodInds = np.argwhere(IS == 1)
+            indepdentLinks = [list(grph.nodes)[int(i)] for i in goodInds]
+
+            scheduled = {}
+            scheduledLinks = {}
+
+            for link in indepdentLinks:
+                sat = link.sat
+                scheduledLinks.setdefault(sat, []).append(link)
+                link.mark_gs_listening()
+                if sat in scheduled:
+                    if scheduled[sat].snr < link.snr:
+                        scheduled[sat] = link
+                else:
+                    scheduled[sat] = link
+
+            for sat, links in scheduledLinks.items():
+                Link.update_link_datarates(links)
+                scheduled[sat].assign_transmission(0, self.timeStep, 0, sat)
+
+            # Update lastTransmitted globally
+            lastTransmitted = {sat: lastTransmitted[sat] + 1 for sat in self.topology.satList}
         return possibleLinks
     
 

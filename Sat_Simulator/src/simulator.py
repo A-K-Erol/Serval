@@ -22,6 +22,7 @@ from src.transmission import Transmission
 from src.groundTransmission import GroundTransmission
 from src.dataCenter import DataCenter
 from src import log
+import concurrent.futures
 
 import const
 
@@ -163,6 +164,23 @@ class Simulator:
             f.close()
             print(top)
         return top
+    
+    def parallel_sat_loads(sat, timestep):
+        sat.load_data(timestep)
+        sat.load_packet_buffer()
+
+    def parallel_gs_loads(gs, timestep):
+        gs.load_data(timestep)
+        gs.load_packet_buffer()
+
+    def parallel_sat_power(sat, timeStep):
+        sat.generate_power(timeStep)
+        log.Log("Satellite power", sat.maxMWs, sat.currentMWs, sat)
+        sat.use_regular_power(timeStep)
+
+    def parallel_propogation(sat, time):
+        sat.calculate_orbit(time)
+
 
     def run(self) -> None:
         """
@@ -187,27 +205,37 @@ class Simulator:
             log.update_logging_time(time)
 
             #if the topology maps have been created - this should load from storage and not re-compute anything
-            for sat in self.satList:
-                sat.calculate_orbit(time)
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                executor.map(Simulator.parallel_propogation, self.satList, [time]*len(self.satList))
+                
+            # for sat in self.satList:
+            #     sat.calculate_orbit(time)
 
             #Calculate data for timeStep
-            for sat in self.satList:
-                sat.load_data(self.timeStep)
-                sat.load_packet_buffer()
+            # for sat in self.satList:
+            #     sat.load_data(self.timeStep)
+            #     sat.load_packet_buffer()
             
-            for gs in self.gsList:
-                gs.load_data(self.timeStep)
-                gs.load_packet_buffer()
+            # for gs in self.gsList:
+            #     gs.load_data(self.timeStep)
+            #     gs.load_packet_buffer()
+
+
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                executor.map(Simulator.parallel_sat_loads, self.satList, [self.timeStep]*len(self.satList))
+                executor.map(Simulator.parallel_gs_loads, self.gsList, [self.timeStep]*len(self.gsList))
             
             if const.INCLUDE_UNIVERSAL_DATA_CENTER:
                 DataCenter.universalDataCenter.load_data(self.timeStep)
                 DataCenter.universalDataCenter.load_packet_buffer()
 
             if const.INCLUDE_POWER_CALCULATIONS:
-                for sat in self.satList:
-                    sat.generate_power(self.timeStep)
-                    log.Log("Satellite power", sat.maxMWs, sat.currentMWs, sat)
-                    sat.use_regular_power(self.timeStep)
+                with concurrent.futures.ThreadPoolExecutor() as executor:
+                    executor.map(Simulator.parallel_sat_power, self.satList, [self.timeStep]*len(self.satList))
+                # for sat in self.satList:
+                #     sat.generate_power(self.timeStep)
+                #     log.Log("Satellite power", sat.maxMWs, sat.currentMWs, sat)
+                #     sat.use_regular_power(self.timeStep)
 
             filePath = const.MAPS_PATH + time.to_str().replace(" ", "-") + ".pkl"
             if not const.ONLY_DOWNLINK and os.path.exists(filePath):

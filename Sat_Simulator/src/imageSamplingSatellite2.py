@@ -71,20 +71,22 @@ class ImageSamplingSatellite2(ImageSatellite):
         """
         Populates the cache with images
         """
-
+        coords = self.node.position.to_coords()
         images_captured = int(timeStep * self.image_rate)
         self.currentMWs -= self.camera_power * timeStep
         Metrics.metr().images_captured += images_captured
 
 
+
         for _ in range(images_captured):
-            image = Image(10, time = log.loggingCurrentTime, coord = self.coords, satellite = self.node.id, name = "Target Image")
-            app_list = self.application.get_candidate_applications(self.coords)
+            # print("Capturing Image")
+            image = Image(10, time = log.loggingCurrentTime, coord = coords, satellite = self.node.id, name = "Target Image")
+            app_list = self.application.get_candidate_applications(coords)
             image.pipeline = ImagePipeline(application=self.application, filters=None, candidate_applications=app_list)
             image.pipeline.log_event("captured")
 
-
             if app_list:
+                Metrics.metr().hipri_captured += 1
                 image.score, image.compute_time = self.application.is_high_priority() # Simulate Priority Determination -- time will be deducted only after true compute
                 image.pipeline.log_event("put_in_compute_queue")
                 self.primitive_high_priority_queue.put(image)
